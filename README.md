@@ -72,3 +72,16 @@ Swagger is enabled and can be used to test all endpoints.
 
 ```powershell
 Update-Database
+
+## Example request
+
+Create a product:
+
+```json
+{
+  "name": "Laptop",
+  "description": "Gaming laptop",
+  "price": 9999.99,
+  "stock": 10,
+  "categoryId": 1
+}
