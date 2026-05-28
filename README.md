@@ -62,3 +62,13 @@ Migrations are included in the Infrastructure layer.
 ## Swagger
 
 Swagger is enabled and can be used to test all endpoints.
+
+## How to run
+
+1. Open the solution in Visual Studio 2022.
+2. Make sure SQL Server LocalDB is installed.
+3. Check the connection string in `appsettings.json`.
+4. Run the following commands in Package Manager Console:
+
+```powershell
+Update-Database
